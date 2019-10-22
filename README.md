@@ -3,7 +3,7 @@
 
 ## Objective
 
-Tto analyze job market for Data Scientists in Ohio and Washington states.
+To analyze job market for Data Scientists in Ohio and Washington states.
 
 ## Finding Data
 
@@ -20,21 +20,21 @@ We scraped data from the abpve web sites using Beautiful Soup and Selenium Drive
 Once datasets were identified, ETL on the data was performed as following:
 
 * While extracting the biggest challenges were:
-    a. to fid out what triggered the popups 
-    b. to tackle those pop ups.
+    * a. to find out what triggered the pop ups 
+    * b. to tackle those pop ups.
 
 * We used splitting and filtering to get the most relevant data, details of which are described in the report.
 
 * PostGre SQL(relational).
 
-* The final tables or collections are:
+* The final tables are:
 
 
 
 
 ## Project Report
 
-Please find it here
+Please find it here.
 
 At the end of the week, your team will submit a Final Report that describes the following:
 
