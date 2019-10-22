@@ -12,9 +12,11 @@ CREATE TABLE indeed_jobs(
 select * from indeed_jobs;
 
 CREATE TABLE glassdoor_jobs(
-	position VARCHAR,
 	company VARCHAR,
 	description VARCHAR,
+	position VARCHAR,
+	reviews NUMERIC,
 	city VARCHAR,
 	state VARCHAR
 );
+
