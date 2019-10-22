@@ -13,7 +13,7 @@ Our project used 2  sources of data:
 
 * [Glassdoor](https://www.glassdoor.com/)
 
-We scraped data from the abpve web sites using Beautiful Soup and Selenium Driver. 
+We scraped data from the above web sites using Beautiful Soup and Selenium Driver. 
 
 ## Data Cleanup & Analysis
 
