@@ -13,11 +13,7 @@ Our project used 2  sources of data:
 
 * [Glassdoor](https://www.glassdoor.com/)
 
-We scraped data from the above web sites using Beautiful Soup and Selenium Driver. 
-
-## Data Cleanup & Analysis
-
-Once datasets were identified, ETL on the data was performed as following:
+## Web Scraping
 
 * While extracting the biggest challenges were:
     * a. to find out what triggered the pop ups 
@@ -25,12 +21,18 @@ Once datasets were identified, ETL on the data was performed as following:
     * c. While doing pagination the first approach was to use the partial link text, but since similar text did appear in multiple 
         location like "company name" for example, had to change it to element.text and do a check on text.
 
+We scraped data from the above web sites using Beautiful Soup and Selenium Driver. 
+
+## Data Cleanup & Analysis
+
+Once datasets were identified, ETL on the data was performed as following:
+
 * We used splitting and filtering to get the most relevant data, details of which are described in the report.
 
 * PostGre SQL(relational).
 
 * The final tables are:
-
+![ETL](Images/ERDDiagram-ETLProject.png)
 
 
 
