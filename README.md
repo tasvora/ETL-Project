@@ -32,7 +32,7 @@ Once datasets were identified, ETL on the data was performed as following:
 * PostGre SQL(relational).
 
 * The final tables are:
-![ETL](Images/ERDDiagram-ETLProject.png)
+![ETL](../Images/ERDDiagram-ETLProject.png)
 
 
 
