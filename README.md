@@ -3,7 +3,7 @@
 
 ## Objective
 
-To analyze job market for Data Scientists in Ohio and Washington states.
+To gather and clean code relative to the data analytics job market comparing Ohio and other populated states. 
 
 ## Finding Data
 
@@ -33,13 +33,12 @@ Once datasets were identified, ETL on the data was performed as following:
 * PostGre SQL(relational).
 
 * The final tables are:
-![ERD Diagram](Images/ERDDiagram-ETLProject.png)
+
+    ![ERD Diagram](Images/ERDiagram-ETLProject.png)
 
 
 
 ## Project Report
-
-Please find it here.
 
 At the end of the week, your team will submit a Final Report that describes the following:
 
@@ -48,4 +47,6 @@ At the end of the week, your team will submit a Final Report that describes the 
 * **T**ransform: what data cleaning or transformation was required.
 
 * **L**oad: the final database, tables/collections, and why this was chosen.
+
+The purpose of this project was to use ETL (Extract, Transform, Load) strategy to extract data from the two separate pages of Indeed.com and Glassdoor.com. The team chose these sites in order to focus of the data analytics job market. The team had one week to focus on this topic, extract, clean, and load new data. The team focused on the job markets of Ohio, Washington, New York, Massachusetts, and California in order to compare the local versus national job outlooks upon graduation of the course. For more details please reference the full project report file:  https://github.com/taylorbreychak/ETL-Project/blob/master/ETL%20Project.pdf
 
